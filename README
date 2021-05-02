@@ -56,4 +56,9 @@ Traer los cambios nuevos que tenemos en la nube, al repositorio local.
     git pull
 
 Agregar un tag:
-    git tag 15-09-20vs -m "version 1 del proyecto"
+    git tag 15-09-20v1 -m "version 1 del proyecto"
+
+subir los tags a github:
+    git push --tags
+
+Los tags sirven para crear versiones de nuestro proyecto, así mismo en github permite descargar por versiones.
