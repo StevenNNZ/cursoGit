@@ -1,0 +1,36 @@
+Se utiliza para que git empiece a hacer el seguimiento del proyecto.
+    git init 
+
+Se utiliza para hacer seguimiento a un solo archivo.
+    git add
+
+Traslada el archivo/archivos que tengamos en el área de ensayo a el repositorio local, aquí ya se hace el respaldo del archivo. 
+    git commit
+
+    forma para realizar el commit:
+        git commit -m "Descripción del commit."
+
+Muestra el estado del directorio del trabajo, sus archivos y carpetas.
+    git status -s
+
+
+Agregar información de usuario.
+
+    git config --global user.name "Nombre Usuario"
+
+Agregar información de correo.
+    git config --global user.email "correo@correo"
+
+Ver el listado de todos los commits/copias que llevamos.
+
+    git log --oneline
+
+Regresar a un commit anterior.
+    git reset --hard codigo_commit
+
+Agregar todos los archivos, carpetas al seguimiento de git.
+    git add .
+
+Realizar un add y commit a la vez.
+
+    git commit -am "descripcion"
