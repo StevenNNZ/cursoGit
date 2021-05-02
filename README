@@ -34,3 +34,26 @@ Agregar todos los archivos, carpetas al seguimiento de git.
 Realizar un add y commit a la vez.
 
     git commit -am "descripcion"
+
+Modificar alguna descripción de commit
+
+    git commit --amend
+
+Agregar nuestro repositorio que se encuentra en la nube:
+
+    git remote add origin https://github.com/StevenNNZ/cursoGit.git
+
+    (Esto depende netamente de la carpeta en la que estamos trabajando el repositorio de la nube, en este caso es cursoGit)
+
+    
+
+Comandos brindados por github para realizar la conexión al repositorio en la nube.
+    git remote add origin https://github.com/StevenNNZ/cursoGit.git
+    git branch -M main
+    git push -u origin main
+
+Traer los cambios nuevos que tenemos en la nube, al repositorio local.
+    git pull
+
+Agregar un tag:
+    git tag 15-09-20vs -m "version 1 del proyecto"
